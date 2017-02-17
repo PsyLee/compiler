@@ -1,0 +1,10 @@
+Odi
+SvrtiDesno
+OstaviZeton
+Odi
+ZemiZeton
+Teleport(3,3)
+OstaviZeton
+Odi
+SvrtiLevo
+Odi

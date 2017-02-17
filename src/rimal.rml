@@ -1,0 +1,127 @@
+move џ 5
+start:
+lv
+ret
+фја:
+број А
+број Б
+start:
+tk
+ret
+main:
+start:
+move regN, 0
+start:
+cmp regN 5
+jne
+lv
+go
+cmp regC $W
+jne next
+next:
+tk
+go
+go
+jne next
+next:
+rr
+rl
+rr
+rl
+rr
+rl
+move џ 4
+go
+go
+tk
+lv
+go
+rr
+call нешто(2, 3)
+go
+call фја(5, 5)
+tlp (3, 4)
+call нешто(2, 3)
+go
+rl
+go
+move regN, 0
+start:
+cmp regN 3
+jne
+lv
+go
+rr
+rr
+move regN, 0
+start:
+cmp regN 3
+jne
+go
+tk
+ret
+нешто:
+број т
+број џ
+move т 4
+move џ 5
+start:
+lv
+ret
+фја:
+број А
+број Б
+start:
+tk
+ret
+main:
+start:
+move regN, 0
+start:
+cmp regN 5
+jne
+lv
+go
+cmp regC $W
+jne next
+next:
+tk
+go
+go
+jne next
+next:
+rr
+rl
+rr
+rl
+rr
+rl
+move џ 4
+go
+go
+tk
+lv
+go
+rr
+call нешто(2, 3)
+go
+call фја(5, 5)
+tlp (3, 4)
+call нешто(2, 3)
+go
+rl
+go
+move regN, 0
+start:
+cmp regN 3
+jne
+lv
+go
+rr
+rr
+move regN, 0
+!
+оди
+земи
+!
+ret
